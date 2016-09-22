@@ -1,0 +1,41 @@
+{
+  "name": "websight",
+  "version": "1.0.0",
+  "description": "App to get feedback for any website with NO plugins",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "brunch watch --server",
+    "build": "brunch build --production",
+    "postinstall": "npm run build",
+    "watch": "brunch watch",
+    "predebug": "echo In one window launch brunch without server: npm run watch",
+    "debug": "echo Then in second window launch server with debug: node-debug server.js"
+  },
+  "devDependencies": {
+    "auto-reload-brunch": "^2.7.1"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.15.2",
+    "brunch": "^2.8.2",
+    "connect-flash": "^0.1.1",
+    "debug": "^2.2.0",
+    "express": "^4.14.0",
+    "express-session": "^1.14.1",
+    "jade": "^1.11.0",
+    "jade-brunch": "^2.8.0",
+    "javascript-brunch": "^2.0.0",
+    "mongoose": "^4.6.1",
+    "morgan": "^1.7.0",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "sass-brunch": "^2.6.3",
+    "serve-favicon": "^2.3.0"
+  },
+  "author": "Richard Williams <1234richardwilliams@gmail.com>",
+  "license": "GPL-3.0",
+  "engines": {
+    "node": "4.2.2"
+  }
+}
