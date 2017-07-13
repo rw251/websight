@@ -36,6 +36,7 @@
   "author": "Richard Williams <1234richardwilliams@gmail.com>",
   "license": "GPL-3.0",
   "engines": {
-    "node": "4.2.2"
+    "node": "6.11.x",
+    "npm": "3.10.x"
   }
 }
